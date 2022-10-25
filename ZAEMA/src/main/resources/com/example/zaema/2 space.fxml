@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="386.0" prefWidth="440.0" style="-fx-background-color: #7df3e9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zaema.HelloController2">
+    <children>
+        <AnchorPane prefHeight="56.0" prefWidth="440.0" style="-fx-background-color: #7D43F899;">
+            <children>
+                <Label layoutX="159.0" layoutY="14.0" text="Registration">
+                    <font>
+                        <Font name="Calibri Bold" size="24.0" />
+                    </font>
+                </Label>
+            <Button fx:id="BackToView" layoutX="343.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #35599; -fx-background-radius: 10; -fx-border-color: #0001; -fx-border-radius: 10;" text="Back" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="FirstName" layoutX="14.0" layoutY="91.0" prefHeight="28.0" prefWidth="175.0" promptText="FirstName" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+        <Button fx:id="Enter_On" layoutX="191.0" layoutY="334.0" mnemonicParsing="false" style="-fx-background-color: #35599; -fx-background-radius: 10; -fx-border-color: #0001; -fx-border-radius: 10;" text="ENTER" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri Bold" size="14.0" />
+            </font>
+        </Button>
+      <TextField fx:id="LastName" layoutX="250.0" layoutY="91.0" prefHeight="28.0" prefWidth="175.0" promptText="LastName" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+      <TextField fx:id="PassportSN" layoutX="14.0" layoutY="188.0" prefHeight="28.0" prefWidth="175.0" promptText="PassportSeriesNumber" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+      <TextField fx:id="PassportBy" layoutX="250.0" layoutY="188.0" prefHeight="28.0" prefWidth="175.0" promptText="PassportBy" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+      <DatePicker fx:id="BirthDate" layoutX="250.0" layoutY="140.0" prefHeight="25.0" prefWidth="175.0" promptText="BirthDate" />
+      <TextField fx:id="PassportCode" layoutX="14.0" layoutY="231.0" prefHeight="28.0" prefWidth="175.0" promptText="PassportCode" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+      <TextField fx:id="Married" editable="true" layoutX="250.0" layoutY="231.0" prefHeight="28.0" prefWidth="175.0" promptText="Married" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+      <CheckBox fx:id="Male" layoutX="140.0" layoutY="287.0" mnemonicParsing="false" text="Male" />
+      <CheckBox fx:id="Female" layoutX="250.0" layoutY="287.0" mnemonicParsing="false" text="Female" />
+      <TextField fx:id="Post" layoutX="14.0" layoutY="139.0" prefHeight="28.0" prefWidth="175.0" promptText="Post" style="-fx-background-color: #5150000; -fx-background-radius: 2; -fx-border-color: #0001; -fx-border-radius: 2;" />
+    </children>
+</AnchorPane>

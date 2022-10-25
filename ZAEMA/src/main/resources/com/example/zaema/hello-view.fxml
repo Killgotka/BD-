@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" maxHeight="600.0" maxWidth="1000.0" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #7df3e9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zaema.HelloController">
+   <children>
+      <AnchorPane prefHeight="61.0" prefWidth="523.0" style="-fx-background-color: #7D43F899;">
+         <children>
+            <Label layoutX="232.0" layoutY="17.0" text="OZON">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="Registr_On" layoutX="401.0" layoutY="16.0" mnemonicParsing="false" style="-fx-background-color: #35599; -fx-background-radius: 10; -fx-border-color: #0001; -fx-border-radius: 10;" text="Registration" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="30.0" layoutY="65.0" text="DataBase">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Search" layoutX="374.0" layoutY="100.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Search" />
+      <Button fx:id="Reset" layoutX="444.0" layoutY="100.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Reset" />
+      <TextField fx:id="SearchField" layoutX="30.0" layoutY="100.0" prefHeight="25.0" prefWidth="333.0" />
+      <Button fx:id="load" layoutX="374.0" layoutY="480.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Load" />
+      <Button fx:id="delete" layoutX="445.0" layoutY="480.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Clear" />
+      <TextArea fx:id="Textfield" layoutX="27.0" layoutY="171.0" prefHeight="294.0" prefWidth="469.0" />
+      <Button fx:id="DeletUser" layoutX="30.0" layoutY="137.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Delete Selectet" />
+      <Button fx:id="SortBy" layoutX="153.0" layoutY="137.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Sort By" />
+   </children>
+</AnchorPane>
